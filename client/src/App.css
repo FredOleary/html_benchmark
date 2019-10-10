@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
 }
 
@@ -19,10 +19,10 @@
 
 .App-link {
   color: #09d3ac;
-}
+} */
 
 
-html,
+/* html,
 body {
   height: 100%;
   margin: 0
@@ -52,3 +52,44 @@ body {
 .HomePage .row.footer {
   flex: 0 1 40px;
 }
+ */
+/* 
+#outer {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+ 
+#inner_fixed {
+  height: 100px;
+  background-color: rgb(202, 157, 157);
+}
+ 
+#inner_remaining {
+  background-color: rgb(226, 209, 209);
+  flex-grow : 1; 
+} */
+
+body {
+  margin: 0;
+}
+
+
+.homePage {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.content {
+  flex: 1;
+}
+.header {
+  height: 100px;
+  background:rgba(16, 24, 32, 0.7)
+}
+.footer {
+  height: 70px;
+}
+/* .row, .row > * {
+  border: 1px solid;
+} */
