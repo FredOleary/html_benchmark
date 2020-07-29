@@ -15,9 +15,4 @@ The server then reads the temporary file and completes the browser request.
 
 ![Flow Diagran](./readme_diagram.png)
 
-How scripts are made
-how keys are made and copied to remote ssh-keygen/ ssh-copy-id pi@192.168.50.24
-Git clone
-create server
-create client
-build client and update server
+Notes: In order to ssh to a remote machine without requiring username/password authentication, use keys via ssh-keygen/ ssh-copy-id
